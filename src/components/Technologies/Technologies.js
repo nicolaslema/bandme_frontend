@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiFirebase, DiReact, DiZend, DiTerminal, DiCodeBadge} from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -8,8 +8,8 @@ const Technologies = () =>  (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world.
-      From Back-end To Design
+      I've worked with some technologies in the web development world.
+      From Back-end To Front-end
     </SectionText>
     <List>
       <ListItem>
@@ -25,26 +25,42 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <picture>
-          <DiFirebase size="3rem" />
+      <picture>
+          <DiTerminal size="3rem" />
         </picture>
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node and Databases
+            Java <br />
+            Nodejs (Javascript & Typescript)
+            
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
-          <DiZend size="3rem" />
+          <DiCodeBadge size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>FrameWorks</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            tools like Figma
+            Java Spring Framework<br />
+            ExpressJS<br />
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+
+
+      <ListItem>
+      <picture>
+          <DiFirebase size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Databases</ListTitle>
+          <ListParagraph>
+            relational database (SQL, MySQL)<br />
+            non-relational database (MongoDB)
           </ListParagraph>
         </ListContainer>
       </ListItem>
